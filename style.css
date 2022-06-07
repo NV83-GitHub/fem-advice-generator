@@ -1,0 +1,53 @@
+:root {
+    --neon-green: hsl(150, 100%, 66%);
+    --light-cyan: hsl(193, 38%, 86%)
+}
+
+*,
+*::before,
+*::after {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202632;
+    position: relative;
+    overflow-x: hidden;
+    padding-bottom: 8rem;
+    height: 100vh;
+}
+
+main {
+    background-color: #313A49;
+    width: 30vw;
+    padding: 3rem;
+    border-radius: 15px;
+}
+
+main > #advice-id {
+    color: var(--neon-green);
+    text-align: center;
+    padding: 10px;
+}
+
+main > #advice-html {
+    color: var(--light-cyan)
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    padding: 4rem;
+}
