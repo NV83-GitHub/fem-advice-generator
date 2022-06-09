@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
 :root {
+
+/***colors***/
+
     --neon-green: hsl(150, 100%, 66%);
-    --light-cyan: hsl(193, 38%, 86%)
+    --light-cyan: hsl(193, 38%, 86%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+
+/*****fonts***/
+
+    --ff-Manrope: 'Manrope', sans-serif
 }
+
+/********************/
+/*******Resets*******/
+/********************/
 
 *,
 *::before,
@@ -11,7 +27,9 @@
     box-sizing : border-box;
 }
 
-
+/********************/
+/*****Typography*****/
+/********************/
 
 body {
     display: flex;
@@ -20,25 +38,34 @@ body {
     background-color: #202632;
     position: relative;
     overflow-x: hidden;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
     height: 100vh;
+    font-family: var(--ff-Manrope);
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #313A49;
-    width: 30vw;
-    padding: 3rem;
+    width: 90vw;
+    padding: 2.5rem 2rem 0 2rem;
     border-radius: 15px;
 }
 
 main > #advice-id {
     color: var(--neon-green);
     text-align: center;
+    letter-spacing: 0.15rem;
     padding: 10px;
+    font-size: 0.75rem;
 }
 
 main > #advice-html {
-    color: var(--light-cyan)
+    padding: 1rem ;
+    font-size: 1.75rem;
+    color: var(--light-cyan);
+    text-align: center;
 }
 
 footer {
@@ -50,4 +77,64 @@ footer {
     right: 0;
     justify-content: center;
     padding: 4rem;
+    color: var(--light-cyan);
+    font-size: 0.75rem
+}
+
+a:default {
+    yellow
+}
+
+a:focus {
+    color: red;
+}
+
+a:visited {
+    color: var(--neon-green)
+}
+
+/********************/
+/******images********/
+/********************/
+
+#divider-desktop {
+    visibility: hidden;
+}
+
+#divider-mobile {
+    padding: 1.5rem 0 0 0;
+}
+
+#dice {
+    position: relative;
+    padding: 2rem;
+    border-radius: 75px;
+    background-color: var(--neon-green);
+    transform: translateY(2rem);
+}
+
+#dice > img {
+    position: absolute;
+    transform: translate(-50%, -50%)
+
+}
+
+/********************/
+/***Media Queries****/
+/********************/
+
+@media screen and (min-width: 1400px){
+
+    main {
+        max-width: 33vw;
+    }
+
+    #divider-desktop {
+        visibility: visible;
+    }
+
+    #divider-mobile {
+        visibility: hidden;
+    }
+    
 }

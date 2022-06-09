@@ -5,10 +5,10 @@ const loadData = async () => {
     let res = await fetch(URL)
     let data = await res.json()
     document.getElementById("advice-id").innerHTML= `
-    <h3>advice # ${data.slip.id}</h3>
+    <h3>ADVICE # ${data.slip.id}</h3>
     `
     document.getElementById("advice-html").innerHTML = `
-        <p>${data.slip.advice}</p>
+        <p>"${data.slip.advice}"</p>
     `
 }
 
