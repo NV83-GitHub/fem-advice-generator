@@ -5,6 +5,7 @@
 /***colors***/
 
     --neon-green: hsl(150, 100%, 66%);
+    --light-neon-green: hsl(149, 61%, 83%);
     --light-cyan: hsl(193, 38%, 86%);
     --grayish-blue: hsl(217, 19%, 38%);
     --dark-grayish-blue: hsl(217, 19%, 24%);
@@ -72,6 +73,7 @@ footer {
     position: absolute;
     display: flex;
     align-items: center;
+    justify-content: center;
     bottom: 0;
     left: 0;
     right: 0;
@@ -81,16 +83,22 @@ footer {
     font-size: 0.75rem
 }
 
-a:default {
-    yellow
+footer > p {
+    text-align: center;
+    padding: 0 1rem;
 }
 
-a:focus {
-    color: red;
+a:link {
+    color: var(--neon-green)
 }
 
 a:visited {
-    color: var(--neon-green)
+    color: var(--light-neon-green)
+}
+
+a:hover {
+    color: var(--neon-green);
+    font-size: 0.77rem;
 }
 
 /********************/
@@ -123,7 +131,14 @@ a:visited {
 /***Media Queries****/
 /********************/
 
-@media screen and (min-width: 1400px){
+
+@media screen and (min-width: 700px){
+
+    main {
+        max-width: 66vw;
+    }
+
+@media screen and (min-width: 1440px){
 
     main {
         max-width: 33vw;
@@ -137,4 +152,5 @@ a:visited {
         visibility: hidden;
     }
     
+}
 }
