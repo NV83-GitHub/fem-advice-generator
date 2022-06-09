@@ -1,4 +1,13 @@
-Hello, This is a frontend mentor challenge. https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db
+Hello, This is a frontend mentor challenge. https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db .
+
+
+
+Challenge: 
+
+<ul>
+  <li>Make a mobile and Desktop version with help of the given designs</li>
+  <li>Fetch and show pieces of advice from an API</li>
+</ul>
 
 Made with Vanilla Javascript.
 
