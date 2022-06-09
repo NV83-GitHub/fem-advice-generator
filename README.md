@@ -1,10 +1,11 @@
 Hello, This is a frontend mentor challenge. https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db .
 
+LIVE VERSION of my solution available on my <a href="https://codepen.io/nv83-github/pen/PoQewoM">Codepen<a/>.
+
 Screenshots :
 
+<img src="./images/Advice Generator desktop screenshot 01.png" alt="desktop version screenshot">
 <img src="./images/Advice Genetor mobile screenshot.png" alt="mobile version screenshot">
-
-LIVE VERSION available on my <a href="https://codepen.io/nv83-github/pen/PoQewoM">Codepen<a/>.
 
 Challenge: 
 
