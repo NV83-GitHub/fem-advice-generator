@@ -4,8 +4,8 @@ LIVE VERSION of my solution available on my <a href="https://codepen.io/nv83-git
 
 Screenshots :
 
-<img src="./images/Advice Genetor mobile screenshot.png" alt="desktop version screenshot">
-<img src="./images/Advice Generator desktop screenshot 01.png" alt="mobile version screenshot">
+<img src="./images/Advice Generator desktop screenshot 01.png" alt="desktop version screenshot">
+<img src="./images/Advice Genetor mobile screenshot.png" alt="mobile version screenshot">
 
 Challenge: 
 
