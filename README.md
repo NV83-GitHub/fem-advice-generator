@@ -2,7 +2,9 @@ Hello, This is a frontend mentor challenge. https://www.frontendmentor.io/challe
 
 Screenshots :
 
-<img src="./images/Advice%20Generator%20desktop%20screenshot.png" alt="desktop version screenshot">
+<img src="./images/Advice Genetor mobile screenshot.png" alt="mobile version screenshot">
+
+LIVE VERSION available on my <a href="https://codepen.io/nv83-github/pen/PoQewoM">Codepen<a/>.
 
 Challenge: 
 
