@@ -12,7 +12,7 @@ const loadData = async () => {
             <p>"${data.slip.advice}"</p>
         `
     }
-   catch {
+   catch(err) {
        console.error(err)
    }
 }
