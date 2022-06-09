@@ -1,6 +1,8 @@
 Hello, This is a frontend mentor challenge. https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db .
 
+Screenshots :
 
+<img src="./images/Advice%20Generator%20desktop%20screenshot.png" alt="desktop version screenshot">
 
 Challenge: 
 
